@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account_hint">请输入用户名</string>
+    <string name="register_hint">请输入密码</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recommend_title">韭菜盒子新做法，不发面不烫面</string>
+    <string name="recommend_username">大胃王</string>
+    <string name="num_123">123</string>
+    <string name="num_20">20</string>
+    <string name="NewsTitle">资讯</string>
+
+
+</resources>
