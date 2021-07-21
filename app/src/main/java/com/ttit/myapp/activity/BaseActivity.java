@@ -45,4 +45,14 @@ public abstract class BaseActivity extends AppCompatActivity {
         edit.putString(key,val);
         edit.commit();
     }
+
+    protected String getStringFromSp(String key){
+        SharedPreferences sp = getSharedPreferences("sp_ttit", MODE_PRIVATE);
+        return sp.getString(key,"");
+    }
+    public void navigateToWithFlag(Class cls,int flag){
+        Intent intent = new Intent(mcContext, cls);
+        intent.setFlags(flag);
+        startActivity(intent);
+    }
 }
